@@ -84,11 +84,6 @@ function updateFilters() {
   }
   
   // 2. Attach an event to listen for changes to each filter
-// datetime.on("change",updateFilters);
-// city.on("change", updateFilters);
-// state.on("change", updateFilters);
-// country.on("change",updateFilters);
-// shape.on("change",updateFilters);
 d3.selectAll("input").on("change",updateFilters);
   
   // Build the table when the page loads
